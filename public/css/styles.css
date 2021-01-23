@@ -3,6 +3,24 @@ html {
     background-image: -webkit-linear-gradient(50deg, #f5b461 50%, #e4e9fd 50%);
     min-height: 1000px;
     font-family: "helvetica neue";
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar {
+    background-color: #f5b461;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
 }
 
 h1 {
@@ -12,7 +30,7 @@ h1 {
 
 .box {
     max-width: 400px;
-    margin: 50px auto;
+    margin: 0 auto 20px;
     background: white;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
@@ -21,6 +39,7 @@ h1 {
 #heading {
     background-color: #f5b461;
     text-align: center;
+    margin-top: 80px;
 }
 
 .item {
@@ -51,7 +70,7 @@ p {
     color: #00204a;
 }
 
-form {
+form.item {
     text-align: center;
     margin-left: 20px;
 }
